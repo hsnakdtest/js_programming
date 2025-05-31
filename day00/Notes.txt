@@ -1,0 +1,118 @@
+node --version
+v22.16.0
+
+npm --version
+10.9.2
+
+
+JavaScript Programming Day01
+
+Topics:
+    Installations & Setups
+    Variables
+    Operators
+    If Statements
+    Loops
+    Arrays
+    String
+
+Extensions:
+    Material Icon Theme
+    Code Runner
+    Prettier - Code formatter
+    JavaScript (ES6) code snippets
+    npm Intellisense
+    Playwright Test for VSCode
+    Playwright Snippets
+    Playwright Test Snippets
+    Tabnine
+
+
+Prompt Engineering Tool:
+    https://www.perplexity.ai/
+
+Accounts:
+    Perplexity AI
+    Tabnine Account
+
+
+Week1:
+    JavaScript (7 hours)
+
+Week2, 3, 4:
+    Playwright fundamentals (21 hours)
+
+Week5:
+    Project implemntation 
+
+Additional: 1~2 hours live class for typescript
+
+------------------------------------------------------------------
+VSCode Settings
+
+>user settings
+    #  Auto Save  : afterDelay
+        afterDelay : 1000
+    
+    #  Font Size  : 20 
+    
+    #  autocomplete
+        JavaScript › Suggest: Enabled
+        ✅ Enable/disable autocomplete suggestions.
+        TypeScript › Suggest: Enabled
+        ✅ Enable/disable autocomplete suggestions.
+    
+    #   Window: Zoom Level : 3
+
+    Extensions > Run Code confiuration  
+    #   Code-runner: Clear Previous Output
+        ✅  Whether to clear previous output before each run.
+    #   Text Editor 
+        Formatting 
+            Format On Save
+              ✅ Format a file on save. A formatter must be available and the editor must not be shutting down. When Files: Auto Save is set to afterDelay, the file will only be formatted when saved explicitly.
+
+
+------------------------------------------------------------------
+
+shortcuts:
+    clg = console.log();
+
+    output:
+        upwrap:
+            Mac: option + z
+            Windows: alt + z
+    Format:
+        Mac: shift + option + F (⇧⌥F) : Format the code
+        Windows: alt + shift + F
+
+
+
+------------------------------------------------------------------
+
+
+Shift   : ⇧  
+Control : ⌃  
+Option  : ⌥  
+Command : ⌘  
+Caps Lock : ⇪  
+Tab     : ⇥  
+Delete (Backspace) : ⌫  
+Forward Delete : ⌦  
+Return (Enter) : ↩  
+Escape  : ⎋  
+Function : fn  
+Arrow Up : ↑  
+Arrow Down : ↓  
+Arrow Left : ←  
+Arrow Right : →  
+Page Up : ⇞  
+Page Down : ⇟  
+Home    : ↖  
+End     : ↘  
+Escape (Alt) : ␛  
+Space : ␣  
+
+Run the codes from terminal
+cd day01
+node 03_Operations.js

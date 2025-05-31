@@ -1,0 +1,38 @@
+JavaScript Programming Day03
+
+Topics:
+    Class & Objects (Day02)
+
+    Tabnine - AI Coding Tool (Code generation, Documentation)
+    Tabnine - AI Coding Tool (Prompt template, Debug)
+    Inheritance
+    Exceptions/Errors
+    Promises
+    Async & Await
+    Introduction to Playwright
+    Playwright project setup
+
+
+
+Next Class:
+    Introduction to Playwright
+    Playwright project setup
+    Working with Browsers
+    Interacting with WebElements
+    AI for web automation
+
+
+Tabnine 
+-------
+
+https://docs.tabnine.com/main/getting-started/install/client-setup-saas/sign-in/using-an-authentication-token
+
+>tabnine ==> Tabnine: Sign in using auth token
+    Get auth token
+    Open
+    Copy this token from tabnine website
+    Paste this token to search bar in the VS Code
+    Press Enter
+
+Tabnine Token : hsnakdtest@gmail.com
+eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTc0ODU5NjY2MywiZXhwIjoxNzQ4NjAwMjYzLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay02cjM0eUB0YWJuaW5lLWF1dGgtMzQwMDE1LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwic3ViIjoiZmlyZWJhc2UtYWRtaW5zZGstNnIzNHlAdGFibmluZS1hdXRoLTM0MDAxNS5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInVpZCI6IkFPc3hTNzdoa1ZnWHpyWDZxbzBFWXNwQXZNaDEifQ.Yta4_K6mqvB3ibiGJ6mdAtbA86ACZhoabvbQExr1RGO_joHSnD3_XjOFmQ7D0ohyfCByVrTfSk7HK_WPXPWzHlTXrwuYsbGitPvHrTi6bB92bv1DP0i134dr9d4_J2vlpBeEG_5O2fyqM4QA6nCkh26GnwL6J0txV012-sZP7giQDF5jd4vhdo9_CgP7eRxbY9NbLa3pR6bm8jTTCkezFFKNr0n93MEv2SU0b6xTwKguAdzSlVBRRtn-lSNIkAypO4z-_mN1gDJrtyqmy7Cb3v4oOjiJY41MwRRQvVfhmJ8H0aCFc23KDN7rr7WKF1B_NkDZ7lUy0v8png1OPxg38Q

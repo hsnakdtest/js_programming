@@ -1,0 +1,27 @@
+JavaScript Programming Day02
+
+Topics:
+    If Statements
+    Loops
+    String
+    Arrays
+    Functions
+    Importing & Exporting
+    Class & Objects
+    AI Tools In Coding
+
+
+
+Next Class:
+    1. Inheritance
+    2. Exceptions / Error handlings
+    3. Asynchronous Programming in JS:
+            promise
+            Asynch
+            Await
+
+ Next Next Class           
+    1. Introduction to Playwright Automation
+    4. Playwright Installation & Setup
+    5. Interacting with Browsers in Playwright
+    6. Interacting with WebElements in Playwright
