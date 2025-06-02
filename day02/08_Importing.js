@@ -14,7 +14,7 @@ console.log(cube);                          // Output: 27
 console.log(utility.square(5));             // Output: 25
 
 // Using the calculate function from test1 file
-console.log(test.calculate(10, 20, '+'));   // Output: 30
+console.log(test.calculate(10, '+', 20));   // Output: 30
 
 
 console.log('---------- // Specific Function Import // ----------');

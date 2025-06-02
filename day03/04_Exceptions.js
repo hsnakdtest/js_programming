@@ -38,15 +38,14 @@ let browser = 'Chrome';
 browser = browser.toLowerCase(); // Normalize to lowercase
 
 // Check if browser is supported
-if (browser == 'chrome' || browser == 'firefox' || browser == 'safari') {
+if (browser === 'chrome' || browser === 'firefox' || browser === 'safari') {
     console.log('You are using a supported browser');
 } else {
     // If unsupported, manually throw an error
-    throw new Error(`Invalid browser : ${browser}`);
+    throw new Error(`Invalid browser: ${browser}`);
 }
 
 console.log('Test-3 ended here');
-
 console.log('----------------------------------------------');
 
 console.log('Test-4 started here');
@@ -55,21 +54,64 @@ console.log('Test-4 started here');
 let newBrowser = 'edge';
 newBrowser = newBrowser.toLowerCase();
 
-if (newBrowser == 'chrome' || newBrowser == 'firefox' || newBrowser == 'safari') {
-    console.log('You are using a supported browser');
-} else {
-    // This will throw because "edge" is not in the allowed list
-    throw new Error(`Invalid browser : ${newBrowser}`);
+try {
+    if (newBrowser === 'chrome' || newBrowser === 'firefox' || newBrowser === 'safari') {
+        console.log('You are using a supported browser');
+    } else {
+        throw new Error(`Invalid browser: ${newBrowser}`);
+    }
+} catch (error) {
+    console.error('❌ Browser Error:', error.message);
 }
 
 console.log('Test-4 ended here');
-
 console.log('----------------------------------------------');
 
-console.log('Test-5 Started here');
+console.log('Test-5 started here');
 
 // 🔍 TEST 5 - Manually throwing an error (currently commented out)
 // Use this to simulate a test failure on purpose
 // throw new Error('Throwing a new error because something went wrong in the test');
 
 console.log('Test-5 is completed here');
+console.log('----------------------------------------------');
+
+console.log('Test-6 started here');
+
+try {
+    let num1 = 10;
+    let num2 = 0;
+    let operator = '/';
+
+    if (typeof num1 !== 'number' || typeof num2 !== 'number' || isNaN(num1) || isNaN(num2)) {
+        throw new Error("Invalid number input");
+    }
+
+    let result;
+
+    switch (operator) {
+        case '+':
+            result = num1 + num2;
+            break;
+        case '-':
+            result = num1 - num2;
+            break;
+        case '*':
+            result = num1 * num2;
+            break;
+        case '/':
+            if (num2 === 0) {
+                throw new Error("Division by zero is not allowed");
+            }
+            result = num1 / num2;
+            break;
+        default:
+            throw new Error("Invalid operator selected (use +, -, *, /)");
+    }
+
+    console.log(`✅ Result: ${num1} ${operator} ${num2} = ${result}`);
+} catch (error) {
+    console.error('❌ Error:', error.message);
+} 
+
+    console.log('Test-6 ended here');
